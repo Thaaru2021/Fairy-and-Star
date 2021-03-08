@@ -45,7 +45,7 @@ function draw() {
   background(bgImg);
   
   keyPressed();
-  fairyVoice.play();
+  
   text(mouseX+','+mouseY,10,45)
   drawSprites();
 
